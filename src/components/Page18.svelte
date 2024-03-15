@@ -2,27 +2,26 @@
   export let index;
 </script>
 
-<div class="p7">
-  {#if index > 10}
-      <div class="title">Encrypt Step 4: 5-Gram</div>
-      <div class="w1">The final step of encryption is to convert the entire ciphertext into 5-grams.</div>
-      <div class="w2">Ciphertext: FGVXGDGDGXGAGAFAAXGVDXXXAXDFVGDAXXGAGFFX</div>
-      <div class="five">5-Gram: FGVXG  DGDGX  GAGAF  AAXGV  DXXXA  XDFVG  DAXXG  AGFFX</div>
-      <div class="w3">Finally, we obtain the ciphertext:</div>
-      <div class="w4">"FGVXG  DGDGX  GAGAF  AAXGV  DXXXA  XDFVG  DAXXG  AGFFX"</div>
-  {/if}
+
+<div class="p18">
+    {#if index > 16}
+      <div class="title">Decrypt Step 5: Identifying text</div>
+      <div class="subcipher">Substituted cipher: THISISAFUNEXAMPLEGGG</div>
+      <div class="sentence">Meaningful Sentence: THIS IS A FUN EXAMPLE GGG.</div>
+      <div class="msentence">Remove Padding: THIS IS A FUN EXAMPLE.</div>
+      <div class="plain">Finally, we get the Plaintext: "THIS IS A FUN EXAMPLE"</div>
+      <div class="w1">The last step of decryption involves using one's own experience and knowledge to make judgments, transforming the substituted ciphertext into meaningful sentences and removing the letters used for padding at the end.</div>
+    {/if}
 </div>
 
-<style> 
-  .p7 {
+
+<style>  
+  .p18 {
     background: black;
     height: 100vh; 
     width: 100%;   
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    position: relative;      
   }
 
   @keyframes fadeInUp {
@@ -44,7 +43,7 @@
     margin: 0;
     position: absolute;
     top: 5%;
-    left: 35%;
+    left: 31%;
     opacity: 0;
     animation: fadeInUp 1s ease-out forwards;
     animation-delay: 0.5s;
@@ -77,77 +76,96 @@
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
-    max-width: 1400px;
-    margin: 0;
-    position: absolute;
-    top: 21%;
-    left: 9%;
-    text-align: left;
-    opacity: 0;
-    animation: fadeInLeft 0.7s ease-out forwards;
-    animation-delay: 1.6s;
-  }
-
-  .w2 {
-    font-size: 32px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: roman;
-    color: #FFFFFF;
+    max-width: 600px;
     margin: 0;
     position: absolute;
     top: 35%;
-    left: 20%;
-    text-align: left;
-    opacity: 0;
-    animation: fadeInRight 0.7s ease-out forwards;
-    animation-delay: 2.4s;
-  }
-
-  .five {
-    font-size: 32px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: roman;
-    color: #FFFFFF;
-    margin: 0;
-    position: absolute;
-    top: 45%;
-    left: 20%;
-    text-align: left;
-    opacity: 0;
-    animation: fadeInRight 0.7s ease-out forwards;
-    animation-delay: 3.2s;
-  }
-
-  .w3 {
-    font-size: 32px;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: roman;
-    color: #FFFFFF;
-    margin: 0;
-    position: absolute;
-    top: 60%;
     left: 9%;
     text-align: left;
     opacity: 0;
     animation: fadeInLeft 0.7s ease-out forwards;
-    animation-delay: 4s;
+    animation-delay: 2s;
   }
 
-  .w4 {
+  .plain {
     font-size: 38px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: orange;
+    color: #FFFFFF;
+    max-width: 600px;
     margin: 0;
     position: absolute;
-    top: 70%;
-    left: 15%;
+    top: 75%;
+    left: 26%;
     text-align: left;
     opacity: 0;
     animation: fadeInLeft 0.7s ease-out forwards;
-    animation-delay: 4.8s;
+    animation-delay: 6s;
+    white-space: nowrap;
   }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .subcipher {
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: roman;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: left;
+    opacity: 0;
+    animation: fadeInDown 0.7s ease-out forwards;
+    animation-delay: 3s;
+    white-space: nowrap;
+  }
+
+  .sentence {
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: roman;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: left;
+    opacity: 0;
+    animation: fadeInDown 0.7s ease-out forwards;
+    animation-delay: 4s;
+    white-space: nowrap;
+  }
+
+  .msentence {
+    font-size: 32px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: roman;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: left;
+    opacity: 0;
+    animation: fadeInDown 0.7s ease-out forwards;
+    animation-delay: 5s;
+    white-space: nowrap;
+  }
+  
 
 
 </style>
-

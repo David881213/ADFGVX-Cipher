@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p13">
-    {#if index > 11}
+<div class="p14">
+    {#if index > 12}
       <div class="title">Decrypt Step 1: Ciphertext, table and keyword</div>
       <table class="grid">
           <tr>
@@ -79,7 +79,7 @@
 
 
 <style>  
-  .p13 {
+  .p14 {
     background: black;
     height: 100vh; 
     width: 100%;   

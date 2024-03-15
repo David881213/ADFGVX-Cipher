@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p16">
-    {#if index > 14}
+<div class="p17">
+    {#if index > 15}
       <div class="title">Decrypt Step 4: Substitution</div>
       <table class="grid">
           <tr>
@@ -172,7 +172,7 @@
     }
   }
 
-  .p16 {
+  .p17 {
     background: black;
     height: 100vh; 
     width: 100%;   

@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p9">
-    {#if index > 7}
+<div class="p6">
+    {#if index > 4}
       <svg width=100% height=100vh>
         <circle class="circlet-1" cx=54.75% cy=66.2% r="22" fill="orange" />
         <line class="linet-1" x1=54.7% y1=66.3% x2=40% y2=66.3% stroke="orange" stroke-width="2" />
@@ -245,7 +245,7 @@
     animation-delay: 8.4s;
   }
 
-  .p9 {
+  .p6 {
     background: black;
     height: 100vh; 
     width: 100%;   

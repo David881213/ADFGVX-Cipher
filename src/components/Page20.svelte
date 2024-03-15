@@ -4,8 +4,8 @@
 
 </script>
 
-<div class="p6">
-  {#if index > 4}
+<div class="p20">
+  {#if index > 18}
     <div class="title">
         <p> Effect of the War </p>
     </div>
@@ -24,7 +24,7 @@
 <style>
   
 
-  .p6 {
+  .p20 {
     background: transparent;
     height: 100vh; 
     width: 100%;   

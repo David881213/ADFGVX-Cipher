@@ -5,8 +5,8 @@
 </script>
 
 
-<div class="p10">
-    {#if index > 8}
+<div class="p7">
+    {#if index > 5}
       <div class="title">Encrypt Step 3: Transposition Using a Keyword (1)</div>
       <div class="w1">The third step of encryption is Transposition Using a Keyword. Before transposition, we need to preprocess the substituted plaintext. First, we need to find out the keyword's total length. </div>
       <div class="keyword">Keyword: 12,6,18,15,4,1,3,16,10,8,19,14,11,7,9,2,5,17,20,13</div>
@@ -65,7 +65,7 @@
 
 
 <style>  
-  .p10 {
+  .p7 {
     background: black;
     height: 100vh; 
     width: 100%;   

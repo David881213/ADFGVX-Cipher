@@ -7,8 +7,8 @@
 </script>
 
 
-<div class="p7">
-    {#if index > 5}
+<div class="p4">
+    {#if index > 2}
       <div class="title">The ADFGVX table & keyword</div>
       <table class="grid">
           <tr>
@@ -84,7 +84,7 @@
 </div>
 
 <style> 
-  .p7 {
+  .p4 {
     background: black;
     height: 100vh; 
     width: 100%;   

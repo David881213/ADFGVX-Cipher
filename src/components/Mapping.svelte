@@ -42,7 +42,7 @@
 
 <svg id="svg-container" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
 
-  {#if index > 4}
+  {#if index > 18}
 
     <text class="german" x="80%" y="20%" font-family="Arial" font-size="30" fill="red">German</text>
 

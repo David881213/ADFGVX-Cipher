@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p10">
-    {#if index > 13}
+<div class="p16">
+    {#if index > 14}
       <div class="title">Decrypt Step 3: Reordering Columns to Original Order</div>
       <div class="w1">The third step of decryption involves numbering each column sequentially.</div>
       <!-- key -->
@@ -102,7 +102,7 @@
 
 
 <style>  
-  .p10 {
+  .p16 {
     background: black;
     height: 100vh; 
     width: 100%;   

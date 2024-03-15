@@ -3,10 +3,13 @@
 </script>
 
 
-<div class="p4">
-  {#if index > 2}
+<div class="p11">
+  {#if index > 9}
     <div class="title">
         <p> Breaker of ADFGVX System </p>
+    </div>
+    <div class="decrypt">
+        <p> Although the ADFGVX Cipher appears complex, it was actually decrypted during WWI.</p>
     </div>
     <div class="breaker">
         <p> The ADFGVX system was broke by Geogers-Jean Painvin</p>
@@ -25,7 +28,7 @@
 
 
 <style>
-  .p4 {
+  .p11 {
     position: relative;
     background: transparent;
     width: 100vh;
@@ -50,9 +53,9 @@
     color: 	black;
     position: absolute; 
     width: 100%;
-    top: 5vh;
+    top: 0vh;
     font-size: 50px;
-    left: 55%;
+    left: 56%;
     margin: 0;
     white-space: nowrap;
     opacity:0;
@@ -71,13 +74,27 @@
     }
   }
 
+  .decrypt {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: roman;
+    color: 	black;
+    position: absolute; 
+    width: 100%;
+    top: 20vh;
+    font-size: 40px;
+    left: 80%;
+    opacity: 0;
+    animation: fadeInRight 0.5s ease-out forwards;
+    animation-delay: 2.3s;
+  }
+
   .breaker {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: 	black;
     position: absolute; 
     width: 100%;
-    top: 40vh;
+    top: 45vh;
     font-size: 40px;
     left: 80%;
     opacity: 0;
@@ -90,7 +107,7 @@
     color: 	black;
     position: absolute; 
     width: 100%;
-    top: 53vh;
+    top: 65vh;
     font-size: 40px;
     left: 80%;
     white-space: nowrap;
@@ -116,7 +133,7 @@
     color: 	black;
     position: absolute; 
     width: 100%;
-    top: 71vh;
+    top: 78vh;
     font-size: 20px;
     left: 4%;
     white-space: nowrap;

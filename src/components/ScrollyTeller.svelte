@@ -1,24 +1,27 @@
 <script>
   import Scroller from "@sveltejs/svelte-scroller";
   import Map from "./Mapping.svelte";
-  import Topic from "./Topic.svelte";
-  import P2 from "./P2.svelte";
-  import P3 from "./P3.svelte";
-  import P4 from "./P4.svelte";
-  import P5 from "./P5.svelte";
-  import P6 from "./P6.svelte";
-  import P7 from "./P7.svelte";
-  import P8 from "./P8.svelte";
-  import P9 from "./P9.svelte";
-  import P10 from "./P10.svelte";
-  import P11 from "./P11.svelte";
-  import P12 from "./P12.svelte";
-  import P13 from "./P13.svelte";
-  import P14 from "./P14.svelte";
-  import P15 from "./P15.svelte";
-  import P16 from "./P16.svelte";
-  import P17 from "./P17.svelte";
-  
+  import Page1 from "./Page1.svelte";
+  import Page2 from "./Page2.svelte";
+  import Page3 from "./Page3.svelte";
+  import Page4 from "./Page4.svelte";
+  import Page5 from "./Page5.svelte";
+  import Page6 from "./Page6.svelte";
+  import Page7 from "./Page7.svelte";
+  import Page8 from "./Page8.svelte";
+  import Page9 from "./Page9.svelte";
+  import Page10 from "./Page10.svelte";
+  import Page11 from "./Page11.svelte";
+  import Page12 from "./Page12.svelte";
+  import Page13 from "./Page13.svelte";
+  import Page14 from "./Page14.svelte";
+  import Page15 from "./Page15.svelte";
+  import Page16 from "./Page16.svelte";
+  import Page17 from "./Page17.svelte";
+  import Page18 from "./Page18.svelte";
+  import Page19 from "./Page19.svelte";
+  import Page20 from "./Page20.svelte";
+  import Page21 from "./Page21.svelte";
 
   let count, index, offset, progress;
 
@@ -41,67 +44,115 @@
     <Map {index} />
     
 
-
   </div>
 
   <div class="foreground" slot="foreground">
     
     <section>
       <div> 
-        <div><Topic/></div>
+        <div><Page1/></div>
       </div>
     </section>
     <section>
       <div> 
-        <div><P2 {index} /></div>
+        <div><Page2 {index} /></div>
       </div>
     </section>
     <section>
-      <div><P3 {index} /></div>
+      <div> 
+        <div><Page3 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P4 {index} /></div>
+      <div> 
+        <div><Page4 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P5 {index} /></div>
+      <div> 
+        <div><Page5 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P6 {index} /></div>
+      <div> 
+        <div><Page6 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P7 {index} /></div>
+      <div> 
+        <div><Page7 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P8 {index} /></div>
+      <div> 
+        <div><Page8 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P9 {index} /></div>
+      <div> 
+        <div><Page9 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P10 {index} /></div>
+      <div> 
+        <div><Page10 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P11 {index} /></div>
+      <div> 
+        <div><Page11 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P12 {index} /></div>
+      <div> 
+        <div><Page12 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P13 {index} /></div>
+      <div> 
+        <div><Page13 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P14 {index} /></div>
+      <div> 
+        <div><Page14 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P15 {index} /></div>
+      <div> 
+        <div><Page15 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P16 {index} /></div>
+      <div> 
+        <div><Page16 {index} /></div>
+      </div>
     </section>
     <section>
-      <div><P17 {index} /></div>
+      <div> 
+        <div><Page17 {index} /></div>
+      </div>
     </section>
-    <section>This is the 18 section.</section>
+    <section>
+      <div> 
+        <div><Page18 {index} /></div>
+      </div>
+    </section>
+    <section>
+      <div> 
+        <div><Page19 {index} /></div>
+      </div>
+    </section>
+    <section>
+      <div> 
+        <div><Page20 {index} /></div>
+      </div>
+    </section>
+    <section>
+      <div> 
+        <div><Page21 {index} /></div>
+      </div>
+    </section>
   </div>
 </Scroller>
 

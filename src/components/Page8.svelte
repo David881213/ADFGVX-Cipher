@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p10">
-    {#if index > 9}
+<div class="p8">
+    {#if index > 6}
       <div class="title">Encrypt Step 3: Transposition Using a Keyword (2)</div>
       <div class="w1">Assign numbers to each column according to the order of the keyword, then rearrange the columns in ascending order based on the assigned numbers.</div>
       <!-- key -->
@@ -101,7 +101,7 @@
 
 
 <style>  
-  .p10 {
+  .p8 {
     background: black;
     height: 100vh; 
     width: 100%;   

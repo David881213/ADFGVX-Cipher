@@ -2,8 +2,8 @@
   export let index;
 </script>
 
-<div class="p5">
-    {#if index > 3}
+<div class="p12">
+    {#if index > 10}
         <div class="title">
             <p> Key Decode Information </p>
         </div>
@@ -29,7 +29,7 @@
 </div>
 
 <style>
-  .p5 {
+  .p12 {
     background: transparent;
     height: 100vh; 
     width: 100%;   

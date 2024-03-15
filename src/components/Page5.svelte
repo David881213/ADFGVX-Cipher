@@ -3,8 +3,8 @@
 </script>
 
 
-<div class="p8">
-    {#if index > 6}
+<div class="p">
+    {#if index > 3}
       <div class="title">Encrypt Step 1: Plaintext, table and keyword</div>
       <table class="grid">
           <tr>
@@ -79,7 +79,7 @@
 
 
 <style>  
-  .p8 {
+  .p5 {
     background: black;
     height: 100vh; 
     width: 100%;   
