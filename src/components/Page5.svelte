@@ -3,7 +3,7 @@
 </script>
 
 
-<div class="p">
+<div class="p5">
     {#if index > 3}
       <div class="title">Encrypt Step 1: Plaintext, table and keyword</div>
       <table class="grid">
