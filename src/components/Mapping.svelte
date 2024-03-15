@@ -1,5 +1,5 @@
 <script>
-  import mapboxgl from 'mapbox-gl';
+  // import mapboxgl from 'mapbox-gl';
   import { onMount } from 'svelte';
 
   export let index;
