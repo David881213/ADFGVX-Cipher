@@ -1,7 +1,6 @@
 <script>
   // import Scroller from "@sveltejs/svelte-scroller";
   import Map from "./Mapping.svelte";
-  import S from "./S.svelte";
   import Topic from "./Topic.svelte";
   import P2 from "./P2.svelte";
   import P3 from "./P3.svelte";
@@ -20,8 +19,6 @@
   import P16 from "./P16.svelte";
   import P17 from "./P17.svelte";
   
-
-  import InteractiveSection from "./InteractiveSection.svelte";
 
   let count, index, offset, progress;
 
