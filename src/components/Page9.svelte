@@ -28,7 +28,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -37,7 +37,7 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -53,7 +53,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -64,7 +64,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -73,7 +73,7 @@
   }
 
   .w1 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -89,7 +89,7 @@
   }
 
   .w2 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -104,7 +104,7 @@
   }
 
   .five {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -119,7 +119,7 @@
   }
 
   .w3 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -134,7 +134,7 @@
   }
 
   .w4 {
-    font-size: 38px;
+    font-size: 4.328vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;

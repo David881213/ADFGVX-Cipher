@@ -3,7 +3,9 @@
 </script>
 
 <div class="p12">
+    <div class="darker" ></div>
     {#if index > 10}
+        
         <div class="title">
             <p> Key Decode Information </p>
         </div>
@@ -25,10 +27,14 @@
         <div class="meaning">
             <p> Which mean: Speed up supply of ammunition. If not seen also during the day </p>
         </div>
+        <div class="arrow">
+            <img src="hiclipart.com.png" alt="arrow">
+        </div>
     {/if}
 </div>
 
 <style>
+
   .p12 {
     background: transparent;
     height: 100vh; 
@@ -40,10 +46,19 @@
     position: relative;   
   }
 
+  .darker {
+    background: black;
+    opacity:0.1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -52,11 +67,11 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: bold;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     white-space: nowrap;
@@ -67,11 +82,11 @@
     animation-delay: 0.5s;
   }
   .intro {
-    font-size: 30px;
+    font-size: 3.417vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: roamn;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     white-space: nowrap;
@@ -85,7 +100,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -94,11 +109,11 @@
   }
 
   .cipher {
-    font-size: 40px;
+    font-size: 4.556vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: bold;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     top: 38vh;
@@ -109,11 +124,11 @@
   }
   
   .code {
-    font-size: 30px;
+    font-size: 3.417vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: roman;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     top: 48vh;
@@ -126,7 +141,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -135,11 +150,11 @@
   }
 
   .plaintext {
-    font-size: 40px;
+    font-size: 4.556vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: bold;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     top: 38vh;
@@ -149,11 +164,11 @@
     animation-delay: 4.3s;
   }
   .decode {
-    font-size: 30px;
+    font-size: 3.417vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: roman;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     top: 51vh;
@@ -173,18 +188,42 @@
   }
 
   .meaning {
-    font-size: 30px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
     font-weight: bold;
     color: black;
-    text-align: left; /* Align text to the left */
+    text-align: left;
     max-width: 800px; 
     position: absolute;
     white-space: nowrap;
-    top: 75vh;
-    left: 20%;
+    top: 85vh;
+    left: 12%;
     opacity:0;
     animation: fadeIn 0.5s ease-out forwards;
+    animation-delay: 7s;
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-2.278vh);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .arrow{
+    position: absolute;
+    top: 75vh;
+    left: 45vw;
+    width : 10vw;
+    height: 10vh;
+    opacity:0;
+    animation: fadeInDown 0.3s ease-out forwards;
     animation-delay: 6.3s;
   }
+
+
 </style>

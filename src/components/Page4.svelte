@@ -98,7 +98,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -107,7 +107,7 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -123,7 +123,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -143,27 +143,27 @@
   }
 
   .grid th, .grid td {
-    border: 1px solid white;
-    width: 60px;  /* 或根据需要调整大小 */
-    height: 60px; /* 或根据需要调整大小 */
+    border: 0.11vh solid white;
+    width: 6.834vh;
+    height: 6.834vh;
     text-align: center;
     vertical-align: middle;
   }
 
   .grid th {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-weight: bold;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   .grid td {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
   }
 
   .keyword {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -188,7 +188,7 @@
   }
 
   .w1 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -204,7 +204,7 @@
   }
 
   .w2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -220,7 +220,7 @@
   }
 
   .w3 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -236,7 +236,7 @@
   }
 
   .w4 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;

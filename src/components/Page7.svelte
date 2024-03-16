@@ -91,7 +91,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -102,7 +102,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -113,7 +113,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -122,7 +122,7 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -148,21 +148,21 @@
 
   .grid td {
     border: 1px solid white;
-    width: 60px;  /* 或根据需要调整大小 */
-    height: 60px; /* 或根据需要调整大小 */
+    width: 6.834vh;
+    height: 6.834vh;
     text-align: center;
     vertical-align: middle;
   }
 
 
   .grid td {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
   }
 
   .keyword {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -176,7 +176,7 @@
   }
 
   .w1 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -192,7 +192,7 @@
   }
 
   .len {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -206,7 +206,7 @@
   }
 
   .w2 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -222,7 +222,7 @@
   }
 
   .spt {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -238,7 +238,7 @@
   }
 
   .w3 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -261,7 +261,7 @@
   .hidden {
     opacity: 0;
     animation: fadeInX 0.5s ease-out forwards;
-    animation-delay: 6.3s; /* 延迟动画直到其他内容加载完成 */
+    animation-delay: 6.3s;
   }
 
   .highlight {

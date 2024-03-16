@@ -6,7 +6,7 @@
 <div class="p21">
     {#if index > 19}
         <div class="hook1">
-            <p> Ending</p>
+            <p> Takeaway</p>
         </div>
         <div class="hook2">
             <p>The ADFGVX cipher is an early example of the types of encryptions that are foundational to modern cryptographic practices.</p>
@@ -28,7 +28,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -54,39 +54,43 @@
   }
 
   .hook1 {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-weight: bold;
     top: 0vh;
     left: 44%; 
-    animation-delay: 0.5s; /* Delay the animation */
+    animation-delay: 0.5s;
   }
   .hook2 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-weight: roman;
+    max-width: 1500px;
     top: 19vh;
     left: 5%; 
-    animation-delay: 1.5s; /* Delay the animation */
+    animation-delay: 1.5s;
   }
   .hook3 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-weight: roman;
+    max-width: 1500px;
     top: 39vh;
     left: 5%; 
-    animation-delay: 2.5s; /* Delay the animation */
+    animation-delay: 2.5s;
   }
   .hook4 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-weight: roman;
+    max-width: 1500px;
     top: 59vh;
     left: 5%; 
-    animation-delay: 4s; /* Delay the animation */
+    animation-delay: 4s;
   }
   .hook5 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-weight: roman;
+    max-width: 1500px;
     top: 79vh;
     left: 5%; 
-    animation-delay: 5s; /* Delay the animation */
+    animation-delay: 5s;
   }
 
 </style>

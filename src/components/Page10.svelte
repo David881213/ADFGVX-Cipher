@@ -1,9 +1,9 @@
 <script>
-  let transpositionKey = "84327615";
-  let plaintext = 'this is the prototype';
+  let transpositionKey = "13764285";
+  let plaintext = 'Try to encrypt this message';
   let solution = '';
   let feedbackMessage = '';
-  let ciphertext = 'GXFGXGAFAFVVADXAAXAVFADAXFXVADVVAVDV'
+  let ciphertext = 'XAVXD DGAAF DAGDX GAGGF VGGXG AGDDX XAGVA XVXGG XXXAX GGX'
   export let index;
 
 
@@ -45,7 +45,7 @@
         <form on:submit|preventDefault={handleSubmit} class="interactive-content">
             <div class="plaintext-and-button">
                 <div class="input-and-button">
-                <input id="solution-input" type="text" class="plain_input" bind:value={solution} placeholder="Enter plaintext">
+                <input id="solution-input" type="text" class="plain_input" bind:value={solution} placeholder="Enter ciphertext">
                 <button type="submit" class='encrypt_buttun'>Check</button>
                 </div>
             </div>
@@ -156,7 +156,7 @@
   }
   
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -170,7 +170,7 @@
   }
 
   .plain {
-    font-size: 38px;
+    font-size: 4.328vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -187,7 +187,7 @@
   }
 
   .keyword {
-    font-size: 38px;
+    font-size: 4.328vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -203,7 +203,7 @@
   }
 
   .label-text {
-    font-size: 38px;
+    font-size: 4.328vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -223,18 +223,18 @@
 
   
   .form-container {
-    flex-grow: 1; /* Allows the form container to grow */
-    margin-right: 20px; /* Adds space between the form and the image */
+    flex-grow: 1;
+    margin-right: 20px;
   }
 
   form {
-    margin-bottom: 20px; /* Adds space below the form */
+    margin-bottom: 20px;
   }
 
   .Cipher {
     font-size: 1.5em;
-    font-weight: 600; /* Sets the font-weight to SemiBold */
-    font-family: 'IBM Plex Sans', sans-serif; /* Sets the font-family */
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif; 
     color: white;
     margin-top: 20px;
   }
@@ -251,7 +251,7 @@
   .encrypt_buttun {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 0;
-    font-size: 32px;
+    font-size: 3.645vh;
     color: #fff;
     background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
     padding: 10px 30px;
@@ -301,7 +301,7 @@
   }
 
   .feedback-message {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -321,7 +321,7 @@
   .toggle-plaintext-button {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 0;
-    font-size: 32px;
+    font-size: 3.645vh;
     color: #fff;
     background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
     padding: 10px 30px;
@@ -346,7 +346,7 @@
   }
 
   .answer {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -370,20 +370,20 @@
 
   .grid th, .grid td {
     border: 1px solid white;
-    width: 60px;  
-    height: 60px; 
+    width: 6.834vh;  
+    height: 6.834vh; 
     text-align: center;
     vertical-align: middle;
   }
 
   .grid th {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-weight: bold;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   .grid td {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
   }

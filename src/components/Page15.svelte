@@ -75,7 +75,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -84,7 +84,7 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -101,7 +101,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -112,7 +112,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -121,7 +121,7 @@
   }
 
   .w1 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -137,7 +137,7 @@
   }
 
   .five {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -152,7 +152,7 @@
   }
 
   .w2 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -169,7 +169,7 @@
   
 
   .cols {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -196,15 +196,15 @@
 
   .grid td {
     border: 1px solid white;
-    width: 60px;
-    height: 60px;
+    width: 6.834vh;
+    height: 6.834vh;
     text-align: center;
     vertical-align: middle;
   }
 
 
   .grid td {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
   }

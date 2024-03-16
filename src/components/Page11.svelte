@@ -1,10 +1,15 @@
 <script>
-    export let index;
+  export let index;
 </script>
 
+<div class="page-container">
 
-<div class="p11">
+  {#if index <= 9}
+    <div class="background2" ></div>
+  {/if}
   {#if index > 9}
+
+    <div class="background" ></div>
     <div class="title">
         <p> Breaker of ADFGVX System </p>
     </div>
@@ -24,22 +29,46 @@
         <img src="painv4.jpg" alt="Painvin">
     </div>
   {/if}
+
 </div>
 
-
 <style>
-  .p11 {
-    position: relative;
-    background: transparent;
-    width: 100vh;
-    height: 100%;
-    margin: 0;            
+
+  @keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0.1; }
   }
+
+  .background {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    animation: fadeOut 0.3s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+
+  .background2 {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .page-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+  }
+
 
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -54,8 +83,8 @@
     position: absolute; 
     width: 100%;
     top: 0vh;
-    font-size: 50px;
-    left: 56%;
+    font-size: 5.695vh;
+    left: 0%;
     margin: 0;
     white-space: nowrap;
     opacity:0;
@@ -66,7 +95,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -79,10 +108,10 @@
     font-weight: roman;
     color: 	black;
     position: absolute; 
-    width: 100%;
+    width: 50%;
     top: 20vh;
-    font-size: 40px;
-    left: 80%;
+    font-size: 4.556vh;
+    left: 44%;
     opacity: 0;
     animation: fadeInRight 0.5s ease-out forwards;
     animation-delay: 2.3s;
@@ -93,10 +122,10 @@
     font-weight: roman;
     color: 	black;
     position: absolute; 
-    width: 100%;
+    width: 50%;
     top: 45vh;
-    font-size: 40px;
-    left: 80%;
+    font-size: 4.556vh;
+    left: 44%;
     opacity: 0;
     animation: fadeInRight 0.5s ease-out forwards;
     animation-delay: 2.3s;
@@ -106,10 +135,10 @@
     font-weight: roman;
     color: 	black;
     position: absolute; 
-    width: 100%;
+    width: 50%;
     top: 65vh;
-    font-size: 40px;
-    left: 80%;
+    font-size: 4.556vh;
+    left: 44%;
     white-space: nowrap;
     opacity: 0;
     animation: fadeInRight 0.5s ease-out forwards;
@@ -119,7 +148,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -134,8 +163,8 @@
     position: absolute; 
     width: 100%;
     top: 78vh;
-    font-size: 20px;
-    left: 4%;
+    font-size: 2.278vh;
+    left: -22%;
     white-space: nowrap;
     opacity:0;
     animation: fadeInLeft 0.5s ease-out forwards;
@@ -144,7 +173,7 @@
   .Painvin{
     position: absolute;
     top: 25vh;
-    left: 38%;
+    left: 20%;
     width : 10vw;
     height: 10vh;
     opacity:0;

@@ -25,6 +25,10 @@
         </div>
     </div>
   {/if}
+
+  {#if index > 2}
+    <div class="background3" ></div>
+  {/if}
 </div>
 
 <style>
@@ -32,6 +36,19 @@
     from { opacity: 0; }
     to { opacity: 1; }
   }
+
+  .background3 {
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    opacity:0;
+    animation: fadeIn 0.3s ease-out forwards;
+    animation-delay: 0.3s;
+  }
+
+
   .image {
     opacity:0;
     position:absolute;
@@ -85,7 +102,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -102,7 +119,7 @@
     width: 90%;
     font-weight: bold;
     top: 3vh;
-    font-size: 50px;
+    font-size: 5.695vh;
     opacity:0;
     animation: fadeInUp 0.3s ease-out forwards;
     animation-delay: 0.8s;
@@ -128,7 +145,7 @@
     font-weight: roman;
     top: 25vh;
     left: 11%;
-    font-size: 38px;
+    font-size: 4.328vh;
     opacity:0;
     animation: fadeInLeft 0.5s ease-out forwards;
     animation-delay: 1.5s;
@@ -141,7 +158,7 @@
     font-weight: roman;
     top: 75vh;
     left: 30%;
-    font-size: 50px;
+    font-size: 5.695vh;
     opacity:0;
     animation: fadeInLeft 0.5s ease-out forwards;
     animation-delay: 3.5s;

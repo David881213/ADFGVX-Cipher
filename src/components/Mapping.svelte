@@ -44,21 +44,21 @@
 
   {#if index > 18}
 
-    <text class="german" x="80%" y="20%" font-family="Arial" font-size="30" fill="red">German</text>
+    <text class="german" x="80%" y="20%" font-family="Arial" font-size="3.417vh" fill="red">German</text>
 
-    <text class="frence" x="10%" y="80%" font-family="Arial" font-size="30" fill="blue">Frence</text>
+    <text class="frence" x="10%" y="80%" font-family="Arial" font-size="3.417vh" fill="blue">Frence</text>
 
-    <text class="r1" x="50%" y="35%" font-family="Arial" font-size="30" fill="black">According to the receiving location, Remaugies</text>
+    <text class="r1" x="50%" y="35%" font-family="Arial" font-size="3.417vh" fill="black">According to the receiving location, Remaugies</text>
 
-    <text class="r2" x="55%" y="40%" font-family="Arial" font-size="30" fill="black">French army aware the location of offense</text>
+    <text class="r2" x="55%" y="40%" font-family="Arial" font-size="3.417vh" fill="black">French army aware the location of offense</text>
 
-    <text class="r3" x="9%" y="40%" font-family="Arial" font-size="30" fill="black">It was expected to happended</text>
+    <text class="r3" x="9%" y="40%" font-family="Arial" font-size="3.417vh" fill="black">It was expected to happended</text>
 
-    <text class="r32" x="9%" y="47.5%" font-family="Arial" font-size="30" fill="black">Between Montdidier and Compiegne</text>
+    <text class="r32" x="9%" y="47.5%" font-family="Arial" font-size="3.417vh" fill="black">Between Montdidier and Compiegne</text>
 
-    <text class="r4" x="56%" y="53%" font-family="Arial" font-size="30" fill="black"> Thus, subordinated successfully</text>
+    <text class="r4" x="56%" y="53%" font-family="Arial" font-size="3.417vh" fill="black"> Thus, subordinated successfully</text>
 
-    <text class="r5" x="56%" y="57%" font-family="Arial" font-size="30" fill="black">and resisted the offense in merely one day</text>
+    <text class="r5" x="56%" y="57%" font-family="Arial" font-size="3.417vh" fill="black">and resisted the offense in merely one day</text>
 
     <circle class="rem" cx="41.3%" cy="36.5%" r="10" fill="red" opacity="0.4" />
 

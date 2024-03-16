@@ -121,7 +121,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -132,7 +132,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -143,7 +143,7 @@
   @keyframes fadeInRight {
     from {
       opacity: 0;
-      transform: translateX(20px);
+      transform: translateX(2.278vh);
     }
     to {
       opacity: 1;
@@ -152,7 +152,7 @@
   }
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -166,7 +166,7 @@
   }
 
   .w1 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -182,7 +182,7 @@
   }
 
   .w2 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -198,7 +198,7 @@
   }
 
   .result {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -216,7 +216,7 @@
   /* stay ---------------------------------------------------------------------------------------------------------------------*/
 
   .a1 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -231,7 +231,7 @@
   }
 
   .a2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -246,7 +246,7 @@
   }
 
   .a3 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -261,7 +261,7 @@
   }
 
   .a4 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -276,7 +276,7 @@
   }
 
   .a5 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -291,7 +291,7 @@
   }
 
   .a6 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -306,7 +306,7 @@
   }
 
   .a7 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -321,7 +321,7 @@
   }
 
   .a8 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -336,7 +336,7 @@
   }
 
   .a9 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -351,7 +351,7 @@
   }
 
   .a10 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -366,7 +366,7 @@
   }
 
   .a11 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -381,7 +381,7 @@
   }
 
   .a12 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -396,7 +396,7 @@
   }
 
   .a13 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -411,7 +411,7 @@
   }
 
   .a14 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -426,7 +426,7 @@
   }
 
   .a15 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -441,7 +441,7 @@
   }
 
   .a16 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -456,7 +456,7 @@
   }
 
   .a17 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -471,7 +471,7 @@
   }
 
   .a18 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -486,7 +486,7 @@
   }
 
   .a19 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -501,7 +501,7 @@
   }
 
   .a20 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -518,7 +518,7 @@
   /* keyword-------------------------------------------------------------------------------------------------------------- */
 
   .k0 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -533,7 +533,7 @@
   }
 
   .k1 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -548,7 +548,7 @@
   }
 
   .k2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -563,7 +563,7 @@
   }
 
   .k3 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -578,7 +578,7 @@
   }
 
   .k4 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -593,7 +593,7 @@
   }
 
   .k5 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -608,7 +608,7 @@
   }
 
   .k6 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -623,7 +623,7 @@
   }
 
   .k7 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -638,7 +638,7 @@
   }
 
   .k8 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -653,7 +653,7 @@
   }
 
   .k9 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -668,7 +668,7 @@
   }
 
   .k10 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -683,7 +683,7 @@
   }
 
   .k11 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -698,7 +698,7 @@
   }
 
   .k12 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -713,7 +713,7 @@
   }
 
   .k13 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -728,7 +728,7 @@
   }
 
   .k14 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -743,7 +743,7 @@
   }
 
   .k15 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -758,7 +758,7 @@
   }
 
   .k16 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -773,7 +773,7 @@
   }
 
   .k17 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -788,7 +788,7 @@
   }
 
   .k18 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -803,7 +803,7 @@
   }
 
   .k19 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -818,7 +818,7 @@
   }
 
   .k20 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -835,7 +835,7 @@
   /* go ---------------------------------------------------------------------------------------------------------------------*/
 
   .b1 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -850,7 +850,7 @@
   }
 
   .b2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -865,7 +865,7 @@
   }
 
   .b3 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -880,7 +880,7 @@
   }
 
   .b4 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -895,7 +895,7 @@
   }
 
   .b5 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -910,7 +910,7 @@
   }
 
   .b6 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -925,7 +925,7 @@
   }
 
   .b7 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -940,7 +940,7 @@
   }
 
   .b8 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -955,7 +955,7 @@
   }
 
   .b9 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -970,7 +970,7 @@
   }
 
   .b10 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -985,7 +985,7 @@
   }
 
   .b11 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1000,7 +1000,7 @@
   }
 
   .b12 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1015,7 +1015,7 @@
   }
 
   .b13 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1030,7 +1030,7 @@
   }
 
   .b14 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1045,7 +1045,7 @@
   }
 
   .b15 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1060,7 +1060,7 @@
   }
 
   .b16 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1075,7 +1075,7 @@
   }
 
   .b17 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1090,7 +1090,7 @@
   }
 
   .b18 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1105,7 +1105,7 @@
   }
 
   .b19 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1120,7 +1120,7 @@
   }
 
   .b20 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1137,7 +1137,7 @@
   /* keyword-------------------------------------------------------------------------------------------------------------- */
 
   .k1-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1152,7 +1152,7 @@
   }
 
   .k2-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1167,7 +1167,7 @@
   }
 
   .k3-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1182,7 +1182,7 @@
   }
 
   .k4-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1197,7 +1197,7 @@
   }
 
   .k5-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1212,7 +1212,7 @@
   }
 
   .k6-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1227,7 +1227,7 @@
   }
 
   .k7-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1242,7 +1242,7 @@
   }
 
   .k8-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1257,7 +1257,7 @@
   }
 
   .k9-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1272,7 +1272,7 @@
   }
 
   .k10-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1287,7 +1287,7 @@
   }
 
   .k11-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1302,7 +1302,7 @@
   }
 
   .k12-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1317,7 +1317,7 @@
   }
 
   .k13-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1332,7 +1332,7 @@
   }
 
   .k14-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1347,7 +1347,7 @@
   }
 
   .k15-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1362,7 +1362,7 @@
   }
 
   .k16-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1377,7 +1377,7 @@
   }
 
   .k17-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1392,7 +1392,7 @@
   }
 
   .k18-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1407,7 +1407,7 @@
   }
 
   .k19-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;
@@ -1422,7 +1422,7 @@
   }
 
   .k20-2 {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: orange;

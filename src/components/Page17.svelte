@@ -12,8 +12,8 @@
               <th>A</th>
               <th>D</th>
               <th>F</th>
-              <th>G</th>
-              <th>V</th>
+              <th class="highlight-t2">G</th>
+              <th class="highlight-h2">V</th>
               <th>X</th>
           </tr>
           <tr>
@@ -44,12 +44,12 @@
               <td>D</td>
           </tr>
           <tr>
-              <th>G</th>
+              <th class="highlight-h1">G</th>
               <td>5</td>
               <td>S</td>
               <td>I</td>
               <td>Y</td>
-              <td>H</td>
+              <td class="highlight-h3">H</td>
               <td>U</td>
           </tr>
           <tr>
@@ -62,11 +62,11 @@
               <td>R</td>
           </tr>
           <tr>
-              <th>X</th>
+              <th class="highlight-t1">X</th>
               <td>E</td>
               <td>Q</td>
               <td>7</td>
-              <td>T</td>
+              <td class="highlight-t3">T</td>
               <td>2</td>
               <td>G</td>
           </tr>
@@ -153,6 +153,28 @@
 
 
 <style> 
+
+  @keyframes highlightAnimation {
+    from {
+      font-size: 3.189vh;
+      color: white;
+    }
+    to {
+      font-size: 4.5vh;
+      color: orange;
+    }
+  }
+
+  @keyframes highlightAnimation2 {
+    from {
+      font-size: 3.189vh;
+      color: white;
+    }
+    to {
+      font-size: 4.5vh;
+      color: red;
+    }
+  }
   
   @keyframes drawLine {
     from {
@@ -183,7 +205,7 @@
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(2.278vh);
     }
     to {
       opacity: 1;
@@ -193,7 +215,7 @@
 
 
   .title {
-    font-size: 50px;
+    font-size: 5.695vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
@@ -209,7 +231,7 @@
   @keyframes fadeInLeft {
     from {
       opacity: 0;
-      transform: translateX(-20px);
+      transform: translateX(-2.278vh);
     }
     to {
       opacity: 1;
@@ -230,28 +252,56 @@
 
   .grid th, .grid td {
     border: 1px solid white;
-    width: 60px;  /* 或根据需要调整大小 */
-    height: 60px; /* 或根据需要调整大小 */
+    width: 6.834vh; 
+    height: 6.834vh; 
     text-align: center;
     vertical-align: middle;
   }
 
   .grid th {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-weight: bold;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
   .grid td {
-    font-size: 28px;
+    font-size: 3.189vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: normal;
   }
 
-  
+  .grid .highlight-t1 {
+    animation: highlightAnimation 0.3s ease-out forwards;
+    animation-delay: 4.4s;
+  }
+
+  .grid .highlight-t2 {
+    animation: highlightAnimation 0.3s ease-out forwards;
+    animation-delay: 4.8s; 
+  }
+
+  .grid .highlight-t3 {
+    animation: highlightAnimation 0.3s ease-out forwards;
+    animation-delay: 5.2s;
+  }
+
+  .grid .highlight-h1 {
+    animation: highlightAnimation2 0.3s ease-out forwards;
+    animation-delay: 7.2s;
+  }
+
+  .grid .highlight-h2 {
+    animation: highlightAnimation2 0.3s ease-out forwards;
+    animation-delay: 7.6s;
+  }
+
+  .grid .highlight-h3 {
+    animation: highlightAnimation2 0.3s ease-out forwards;
+    animation-delay: 8s;
+  }
 
   .w1 {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -267,10 +317,10 @@
   }
 
   .t {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: orange;
     margin: 0;
     position: absolute;
     top: 20%;
@@ -282,10 +332,10 @@
   }
 
   .arrow1 {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: orange;
     margin: 0;
     position: absolute;
     top: 19.5%;
@@ -297,10 +347,10 @@
   }
 
   .t-c {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: orange;
     margin: 0;
     position: absolute;
     top: 20%;
@@ -312,10 +362,10 @@
   }
 
   .h {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: red;
     margin: 0;
     position: absolute;
     top: 28%;
@@ -327,10 +377,10 @@
   }
 
   .arrow2 {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: red;
     margin: 0;
     position: absolute;
     top: 27.5%;
@@ -342,10 +392,10 @@
   }
 
   .h-c {
-    font-size: 45px;
+    font-size: 5.125vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
-    color: #FFFFFF;
+    color: red;
     margin: 0;
     position: absolute;
     top: 28%;
@@ -357,7 +407,7 @@
   }
 
   .i {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -372,7 +422,7 @@
   }
 
   .arrow4 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -387,7 +437,7 @@
   }
 
   .i-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -402,7 +452,7 @@
   }
 
   .s {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -417,7 +467,7 @@
   }
 
   .arrow5 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -432,7 +482,7 @@
   }
 
   .s-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -447,7 +497,7 @@
   }
 
   .i2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -462,7 +512,7 @@
   }
 
   .arrow6 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -477,7 +527,7 @@
   }
 
   .i2-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -492,7 +542,7 @@
   }
 
   .s2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -507,7 +557,7 @@
   }
 
   .arrow7 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -522,7 +572,7 @@
   }
 
   .s2-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -537,7 +587,7 @@
   }
 
   .a {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -552,7 +602,7 @@
   }
 
   .arrow8 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -567,7 +617,7 @@
   }
 
   .a-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -582,7 +632,7 @@
   }
 
   .f {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -597,7 +647,7 @@
   }
 
   .arrow17 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -612,7 +662,7 @@
   }
 
   .f-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -627,7 +677,7 @@
   }
 
   .u {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -642,7 +692,7 @@
   }
 
   .arrow18 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -657,7 +707,7 @@
   }
 
   .u-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -672,7 +722,7 @@
   }
 
   .n {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -687,7 +737,7 @@
   }
 
   .arrow9 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -702,7 +752,7 @@
   }
 
   .n-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -717,7 +767,7 @@
   }
 
   .e {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -732,7 +782,7 @@
   }
 
   .arrow10 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -747,7 +797,7 @@
   }
 
   .e-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -762,7 +812,7 @@
   }
 
   .x {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -777,7 +827,7 @@
   }
 
   .arrow11 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -792,7 +842,7 @@
   }
 
   .x-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -807,7 +857,7 @@
   }
 
   .a2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -822,7 +872,7 @@
   }
 
   .arrow12 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -837,7 +887,7 @@
   }
 
   .a2-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -852,7 +902,7 @@
   }
 
   .m {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -867,7 +917,7 @@
   }
 
   .arrow13 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -882,7 +932,7 @@
   }
 
   .m-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -897,7 +947,7 @@
   }
 
   .p {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -912,7 +962,7 @@
   }
 
   .arrow14 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -927,7 +977,7 @@
   }
 
   .p-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -942,7 +992,7 @@
   }
 
   .l {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -957,7 +1007,7 @@
   }
 
   .arrow15 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -972,7 +1022,7 @@
   }
 
   .l-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -987,7 +1037,7 @@
   }
 
   .e2 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1002,7 +1052,7 @@
   }
 
   .arrow16 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1017,7 +1067,7 @@
   }
 
   .e2-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1031,7 +1081,7 @@
     animation-delay: 9.8s;
   }
   .g {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1046,7 +1096,7 @@
   }
 
   .arrowg {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1057,11 +1107,11 @@
     text-align: left;
     opacity: 0;
     animation: fadeInLeft 0.3s ease-out forwards;
-    animation-delay: 12.8s;
+    animation-delay: 11.8s;
   }
 
   .g-c {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1072,10 +1122,10 @@
     text-align: left;
     opacity: 0;
     animation: fadeInLeft 0.3s ease-out forwards;
-    animation-delay: 13.8s;
+    animation-delay: 11.8s;
   }
   .all3 {
-    font-size: 35px;
+    font-size: 3.986vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1089,7 +1139,7 @@
   }
 
   .plain {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1099,11 +1149,11 @@
     left:4%;
     opacity: 0;
     animation: fadeInUp 0.5s ease-out forwards;
-    animation-delay: 14.8s;
+    animation-delay: 12.8s;
   }
 
   .arrow3 {
-    font-size: 40px;
+    font-size: 4.556vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1114,11 +1164,11 @@
     text-align: left;
     opacity: 0;
     animation: fadeInLeft 0.5s ease-out forwards;
-    animation-delay: 15.8s;
+    animation-delay: 13.8s;
   }
 
   .after {
-    font-size: 32px;
+    font-size: 3.645vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: roman;
     color: #FFFFFF;
@@ -1128,6 +1178,6 @@
     left:67%;
     opacity: 0;
     animation: fadeInLeft 0.5s ease-out forwards;
-    animation-delay: 16.8s;
+    animation-delay: 14.8s;
   }
 </style>

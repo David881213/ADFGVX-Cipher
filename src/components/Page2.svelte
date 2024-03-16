@@ -45,40 +45,40 @@
   }
 
   .hook1, .hook2, .hook3, .hook4, .hook5 {
-    font-size: 40px;
+    font-size: 4.556vh;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: #FFFFFF;
     text-align: left; 
     position: absolute;
-    opacity: 0; /* Start elements as invisible */
-    animation: fadeInUp 0.6s ease-out forwards; /* Apply the animation */
+    opacity: 0;
+    animation: fadeInUp 0.6s ease-out forwards;
   }
 
   .hook1 {
     top: 30vh;
-    left: 20%; 
-    animation-delay: 0.5s; /* Delay the animation */
+    left: 20vw; 
+    animation-delay: 0.5s;
   }
   .hook2 {
     top: 30vh;
-    left: 42%; 
-    animation-delay: 1.5s; /* Delay the animation */
+    left: 42vw; 
+    animation-delay: 1.5s;
   }
   .hook3 {
     top: 35vh;
-    left: 20%; 
-    animation-delay: 2.5s; /* Delay the animation */
+    left: 20vw; 
+    animation-delay: 2.5s;
   }
   .hook4 {
     top: 45vh;
-    left: 20%; 
-    animation-delay: 4s; /* Delay the animation */
+    left: 20vw; 
+    animation-delay: 4s;
   }
   .hook5 {
     top: 50vh;
-    left: 20%; 
-    animation-delay: 5s; /* Delay the animation */
+    left: 20vw; 
+    animation-delay: 5s;
   }
 
 </style>
