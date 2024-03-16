@@ -37,8 +37,8 @@
     <div class="form-container open-sans-my-text-style">
 
     <div class="title">Try to encrypt by yourself!!</div>
-    <div class="plain">Plaintext: this is the prototype</div>
-    <div class="keyword">Keyword: 84327615</div>
+    <div class="plain">Plaintext: Try to encrypt this message</div>
+    <div class="keyword">Keyword: 13764285</div>
 
     <div class="label-text">Enter your ciphertext:</div>
     
